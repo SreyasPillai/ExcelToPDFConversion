@@ -11,6 +11,9 @@ Specifies the absolute path of to store the PDF File.If unspecified, it takes in
 ExcelSourcePath - Type String - Mandatory :
 Specifies the absolute path of the excel file to be converted.
 
+RemovePageBreaks - Type boolean - Mandatory :
+Specifies whether page breaks in excel should be enabled or not.
+
 SheetName- Type String - Optional :
 Specifies the name of the particular sheet to be converted to PDF. If unspecified, the whole workbook is converted to a PDF Document.
 
@@ -20,5 +23,5 @@ result- Type boolean - Optional :
 Returns True if the operation has been carried out successfully, otherwise returns False.
 
 
-Follow the link to download the Nuget Package :
+Follow the link to download the latest Nuget Package :
 https://www.nuget.org/packages/ExceltoPDFConversionActivities/
