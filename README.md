@@ -1,5 +1,5 @@
 # ExcelToPDFConversion
-This package is focusing on building a custom UiPath Activity that converts Excel File to PDF Document.
+This package focuses on building a custom UiPath Activity that converts Excel File to PDF Document.
 Converts a Worksheet in an Excel Workbook to an individual PDF File. If the Worksheet is left unspecified, the whole workbook is converted to PDF.
 
 
